@@ -62,26 +62,26 @@ Download from:
 
 #### 🛒 Amazon Reviews Data
 
-**Data source:**
+**Data source:**  
 [https://amazon-reviews-2023.github.io/](https://amazon-reviews-2023.github.io/)
 
 **Image download:**
 
-1. Download images from:
+1. Download images from:  
    [https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
 2. Extract `images.zip` to `data/images/`
 
 #### 🐦 X Platform Data
 
-Due to X platform policies, we provide **post links** instead of redistributing raw post content. To reconstruct the complete dataset:
+Due to X platform policies, we provide **post links** instead of redistributing raw post content.
 
-1. Run the download script to retrieve post text and images:
+To request access to the X-platform portion of MMSD3.0, please first complete the access form below:  
+[https://forms.office.com/r/g3TZBSssqt](https://forms.office.com/r/g3TZBSssqt)
 
-   ```bash
-   python download_tweets_from_api.py
-   ```
+After approval, you may reconstruct the dataset by running the download script to retrieve post text and images:
 
-⚠️ **Note:** If you encounter any issues during the download process, please feel free to contact us at **[zhaohaochen@iie.ac.cn](mailto:zhaohaochen@iie.ac.cn)**.
+```bash
+python download_tweets_from_api.py
 
 ### 🔍 OCR Extraction
 
