@@ -51,34 +51,38 @@ extract_ocr_text.py                      # OCR extraction script
 ### MMSD1.0
 
 Download from:
-[https://github.com/headacheboy/data-of-multimodal-sarcasm-detection](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
+[MMSD](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
 
 ### MMSD2.0
 
 Download from:
-[https://github.com/JoeYing1019/MMSD2.0](https://github.com/JoeYing1019/MMSD2.0)
+[MMSD2.0](https://github.com/JoeYing1019/MMSD2.0)
 
 ### MMSD3.0
 
+To facilitate data access and comply with the policies of different data sources, we divide **MMSD3.0** into **two parts**:  
+(1) **Amazon Reviews Data**, which can be downloaded directly, and  
+(2) **X Platform Data**, for which users may either reconstruct the data using the provided script or request access to the complete processed data by submitting the application form.
 #### 🛒 Amazon Reviews Data
 
 **Data source:**  
-[https://amazon-reviews-2023.github.io/](https://amazon-reviews-2023.github.io/)
+[Amazon Reviews 2023](https://amazon-reviews-2023.github.io/)
 
 **Image download:**
 
 1. Download images from:  
-   [https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
+   [here](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
 2. Extract `images.zip` to `data/images/`
 
 #### 🐦 X Platform Data
 
 Due to X platform policies, we provide **post links** instead of redistributing raw post content.
 
-To request access to the X-platform portion of MMSD3.0, please first complete the access form below:  
-[https://forms.office.com/r/g3TZBSssqt](https://forms.office.com/r/g3TZBSssqt)
+The X-platform portion of MMSD3.0 is available either by **reconstructing the dataset** with the provided script or by **applying for access to the complete data** via the request form below:
 
-After approval, you may reconstruct the dataset by running the download script to retrieve post text and images:
+[access request form](https://forms.office.com/r/g3TZBSssqt)
+
+To reconstruct the dataset, run:
 
 ```bash
 python download_tweets_from_api.py
