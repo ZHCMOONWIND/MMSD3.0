@@ -70,8 +70,7 @@ To facilitate data access and comply with the policies of different data sources
 
 **Image download:**
 
-1. Download images from:  
-   [here](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
+1. Download images from: [here](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
 2. Extract `images.zip` to `data/images/`
 
 #### 🐦 X Platform Data
