@@ -126,19 +126,6 @@ python src/train.py
 * Model checkpoints will be saved to `models/`
 * Training logs and evaluation results will be saved to `results/`
 
-## 📖 Citation
-
-If you find this work useful in your research, please consider citing:
-
-```bibtex
-@inproceedings{mmsd3_cvpr2026,
-  title={MMSD3.0: A Multi-Image Benchmark for Real-World Multimodal Sarcasm Detection},
-  author={Anonymous},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
-}
-```
-
 ## 📬 Contact
 
 For any questions, suggestions, or issues, please contact:
