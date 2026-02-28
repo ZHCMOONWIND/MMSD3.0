@@ -67,6 +67,7 @@ To facilitate data access and comply with the policies of different data sources
 
 **Data source:**  
 [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/)
+We would like to express our sincere gratitude to the authors of the Amazon Reviews 2023 dataset for their valuable work and for providing such a comprehensive resource to the research community.
 
 **Image download:**
 
