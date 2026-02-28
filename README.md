@@ -48,7 +48,7 @@ extract_ocr_text.py                      # OCR extraction script
 
 ## 📦 Dataset Setup
 
-### MMSD1.0
+### MMSD
 
 Download from:
 [MMSD](https://github.com/headacheboy/data-of-multimodal-sarcasm-detection)
