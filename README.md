@@ -121,6 +121,17 @@ Edit `src/config.py` to:
 python src/train.py
 ```
 
+### 5. Citation
+
+If you find this project useful in your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{zhao2026mmsd30,
+  title     = {MMSD3.0: A Multi-Image Benchmark for Real-World Multimodal Sarcasm Detection},
+  author    = {Haoche Zhao and Yuyao Kong and Yongxiu Xu and Gaopeng Gou and Hongbo Xu and Yubin Wang and Haoliang Zhang},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2026}
+}
 📌 Notes:
 
 * Model checkpoints will be saved to `models/`
