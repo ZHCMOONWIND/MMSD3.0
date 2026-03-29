@@ -132,6 +132,8 @@ If you find this project useful in your research, please consider citing our pap
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year      = {2026}
 }
+```
+
 📌 Notes:
 
 * Model checkpoints will be saved to `models/`
