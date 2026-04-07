@@ -62,12 +62,20 @@ Download from:
 
 To facilitate data access and comply with the policies of different data sources, we divide **MMSD3.0** into **two parts**:  
 (1) **Amazon Reviews Data**, which can be downloaded directly, and  
-(2) **X Platform Data**, for which users may either reconstruct the data using the provided script or request access to the complete processed data by submitting the application form.
+(2) **X Platform Data**, which requires either application or reconstruction.
+
+#### 📄 Data Access
+
+For the X-platform portion of MMSD3.0, we recommend applying for access to the complete processed dataset:
+
+[access request form](https://forms.office.com/r/g3TZBSssqt)
+
 #### 🛒 Amazon Reviews Data
 
 **Data source:**  
 [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/)
-We would like to express our sincere gratitude to the authors of the Amazon Reviews 2023 dataset for their valuable work and for providing such a comprehensive resource to the research community.
+
+We sincerely thank the authors of the Amazon Reviews 2023 dataset for providing such a valuable resource.
 
 **Image download:**
 
@@ -78,11 +86,7 @@ We would like to express our sincere gratitude to the authors of the Amazon Revi
 
 Due to X platform policies, we provide **post links** instead of redistributing raw post content.
 
-The X-platform portion of MMSD3.0 is available either by **reconstructing the dataset** with the provided script or by **applying for access to the complete data** via the request form below:
-
-[access request form](https://forms.office.com/r/g3TZBSssqt)
-
-To reconstruct the dataset, run:
+If access is not granted, the dataset can be reconstructed using the provided script:
 
 ```bash
 python download_tweets_from_api.py
