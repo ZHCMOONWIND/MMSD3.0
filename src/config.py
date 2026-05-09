@@ -30,7 +30,7 @@ class Config:
     mmsd3_train_data_path: str = "./data/MMSD3/train_data.json"
     mmsd3_val_data_path: str = "./data/MMSD3/val_data.json"
     mmsd3_test_data_path: str = "./data/MMSD3/test_data.json"
-    mmsd3_image_path: str = "./reorganized_images"
+    mmsd3_image_path: str = "./images"
     
     # Encoder selection
     text_encoder_type: str = "roberta"  # 'bert' or 'roberta'
