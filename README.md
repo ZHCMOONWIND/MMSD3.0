@@ -130,12 +130,13 @@ python src/train.py
 If you find this project useful in your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{zhao2026mmsd3,
-  title={Mmsd3. 0: A multi-image benchmark for real-world multimodal sarcasm detection},
-  author={Zhao, Haochen and Kong, Yuyao and Xu, Yongxiu and Gou, Gaopeng and Xu, Hongbo and Wang, Yubin and Zhang, Haoliang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={37885--37895},
-  year={2026}
+@InProceedings{Zhao_2026_CVPR,
+  author    = {Zhao, Haochen and Kong, Yuyao and Xu, Yongxiu and Gou, Gaopeng and Xu, Hongbo and Wang, Yubin and Zhang, Haoliang},
+  title     = {{MMSD3.0}: A Multi-Image Benchmark for Real-World Multimodal Sarcasm Detection},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2026},
+  pages     = {37885--37895}
 }
 ```
 
