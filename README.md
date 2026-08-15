@@ -79,7 +79,7 @@ We sincerely thank the authors of the Amazon Reviews 2023 dataset for providing 
 
 **Image download:**
 
-1. Download images from: [here](https://drive.google.com/file/d/1BdhwkK_vGC13IGnaKk7LZ7V934n95ayN/view?usp=drive_link)
+1. Download images from: [here](https://drive.google.com/file/d/1zvgIxAkiAqlb_5sH6ux7xJzOJJ8s_VAp/view?usp=sharing)
 2. Extract `images.zip` to `data/images/`
 
 #### 🐦 X Platform Data
